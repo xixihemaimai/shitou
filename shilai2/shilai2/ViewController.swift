@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         print("333")
         // Do any additional setup after loading the view.
     }
+    
+    func saveView(){
+        print("保存界面")
+    }
 
 
 }
