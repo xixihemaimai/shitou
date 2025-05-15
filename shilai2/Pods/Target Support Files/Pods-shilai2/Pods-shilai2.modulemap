@@ -1,0 +1,6 @@
+framework module Pods_shilai2 {
+  umbrella header "Pods-shilai2-umbrella.h"
+
+  export *
+  module * { export * }
+}
