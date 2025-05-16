@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
     
     func saveView() -> UIView{
-        var label = UILabel(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
+        let label = UILabel(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
         label.text = "1123"
         label.textColor = UIColor(red: 100, green: 100, blue: 100, alpha: 1.0)
         label.textAlignment = .center

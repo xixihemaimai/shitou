@@ -7,6 +7,12 @@ target 'shilai2' do
 
   # Pods for shilai2
 
-
+pod 'SnapKit'
+pod 'Moya'
+pod 'SwiftyJSON'
+pod 'JKSwiftExtension'
+pod 'TZImagePickerController'
+pod 'Realm'
+pod 'RealmSwift'
 
 end

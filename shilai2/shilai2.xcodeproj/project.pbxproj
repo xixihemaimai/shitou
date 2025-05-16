@@ -13,9 +13,18 @@
 		5CA8A1E32DD5E50800C34591 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5CA8A1E22DD5E50800C34591 /* Base */; };
 		5CA8A1E52DD5E50900C34591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA8A1E42DD5E50900C34591 /* Assets.xcassets */; };
 		5CA8A1E82DD5E50900C34591 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5CA8A1E72DD5E50900C34591 /* Base */; };
+		5CF95CEF2DD7291E00FA4DD1 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF95CEE2DD7291E00FA4DD1 /* StoreModel.swift */; };
+		5CF95CF12DD7294000FA4DD1 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF95CF02DD7294000FA4DD1 /* GenericResponse.swift */; };
+		5CF95CF32DD7297200FA4DD1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF95CF22DD7297200FA4DD1 /* NetworkManager.swift */; };
+		5CF95CF52DD7299200FA4DD1 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF95CF42DD7299200FA4DD1 /* StoreService.swift */; };
+		5CF95CF72DD72B7400FA4DD1 /* BusinessTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF95CF62DD72B7400FA4DD1 /* BusinessTypeModel.swift */; };
+		5CF95CF92DD72C5F00FA4DD1 /* StoreAppleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF95CF82DD72C5F00FA4DD1 /* StoreAppleApi.swift */; };
+		5CF95CFB2DD72C8A00FA4DD1 /* MoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF95CFA2DD72C8A00FA4DD1 /* MoyaConfig.swift */; };
+		FCF9446EAB3026BCA1514F53 /* Pods_shilai2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118CA16E2F369B807681DDDB /* Pods_shilai2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		118CA16E2F369B807681DDDB /* Pods_shilai2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shilai2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA8A1D82DD5E50800C34591 /* shilai2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shilai2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA8A1DB2DD5E50800C34591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CA8A1DD2DD5E50800C34591 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		5CA8A1E42DD5E50900C34591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CA8A1E72DD5E50900C34591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CA8A1E92DD5E50900C34591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF95CEE2DD7291E00FA4DD1 /* StoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		5CF95CF02DD7294000FA4DD1 /* GenericResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		5CF95CF22DD7297200FA4DD1 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5CF95CF42DD7299200FA4DD1 /* StoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		5CF95CF62DD72B7400FA4DD1 /* BusinessTypeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTypeModel.swift; sourceTree = "<group>"; };
+		5CF95CF82DD72C5F00FA4DD1 /* StoreAppleApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreAppleApi.swift; sourceTree = "<group>"; };
+		5CF95CFA2DD72C8A00FA4DD1 /* MoyaConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaConfig.swift; sourceTree = "<group>"; };
+		5E0BE4DE8CA26FD325D979BE /* Pods-shilai2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shilai2.debug.xcconfig"; path = "Target Support Files/Pods-shilai2/Pods-shilai2.debug.xcconfig"; sourceTree = "<group>"; };
+		D5C2251ED149F989A725559F /* Pods-shilai2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shilai2.release.xcconfig"; path = "Target Support Files/Pods-shilai2/Pods-shilai2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF9446EAB3026BCA1514F53 /* Pods_shilai2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				5CA8A1DA2DD5E50800C34591 /* shilai2 */,
 				5CA8A1D92DD5E50800C34591 /* Products */,
+				A5104E4B9F10811B186092EB /* Pods */,
+				C5AB0C154AAB294D0EF0E8D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +77,8 @@
 		5CA8A1DA2DD5E50800C34591 /* shilai2 */ = {
 			isa = PBXGroup;
 			children = (
+				5CF95CE52DD7214F00FA4DD1 /* App */,
+				5CF95CE42DD7213F00FA4DD1 /* Util */,
 				5CA8A1DB2DD5E50800C34591 /* AppDelegate.swift */,
 				5CA8A1DD2DD5E50800C34591 /* SceneDelegate.swift */,
 				5CA8A1DF2DD5E50800C34591 /* ViewController.swift */,
@@ -67,6 +90,76 @@
 			path = shilai2;
 			sourceTree = "<group>";
 		};
+		5CF95CE42DD7213F00FA4DD1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5CF95CE92DD721B300FA4DD1 /* Lib */,
+				5CF95CE82DD7217800FA4DD1 /* Extension */,
+				5CF95CE72DD7216D00FA4DD1 /* Services */,
+				5CF95CE62DD7215E00FA4DD1 /* Models */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5CF95CE52DD7214F00FA4DD1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5CF95CE62DD7215E00FA4DD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CF95CF62DD72B7400FA4DD1 /* BusinessTypeModel.swift */,
+				5CF95CF02DD7294000FA4DD1 /* GenericResponse.swift */,
+				5CF95CEE2DD7291E00FA4DD1 /* StoreModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CF95CE72DD7216D00FA4DD1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5CF95CFA2DD72C8A00FA4DD1 /* MoyaConfig.swift */,
+				5CF95CF82DD72C5F00FA4DD1 /* StoreAppleApi.swift */,
+				5CF95CF42DD7299200FA4DD1 /* StoreService.swift */,
+				5CF95CF22DD7297200FA4DD1 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5CF95CE82DD7217800FA4DD1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5CF95CE92DD721B300FA4DD1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A5104E4B9F10811B186092EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E0BE4DE8CA26FD325D979BE /* Pods-shilai2.debug.xcconfig */,
+				D5C2251ED149F989A725559F /* Pods-shilai2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5AB0C154AAB294D0EF0E8D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118CA16E2F369B807681DDDB /* Pods_shilai2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CA8A1EC2DD5E50900C34591 /* Build configuration list for PBXNativeTarget "shilai2" */;
 			buildPhases = (
+				EAB09DD67783AAE61ADC7EE6 /* [CP] Check Pods Manifest.lock */,
 				5CA8A1D42DD5E50800C34591 /* Sources */,
 				5CA8A1D52DD5E50800C34591 /* Frameworks */,
 				5CA8A1D62DD5E50800C34591 /* Resources */,
+				3A073A747D575631A2BFFD94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +228,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A073A747D575631A2BFFD94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shilai2/Pods-shilai2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shilai2/Pods-shilai2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shilai2/Pods-shilai2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB09DD67783AAE61ADC7EE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shilai2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5CA8A1D42DD5E50800C34591 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF95CF32DD7297200FA4DD1 /* NetworkManager.swift in Sources */,
+				5CF95CF72DD72B7400FA4DD1 /* BusinessTypeModel.swift in Sources */,
 				5CA8A1E02DD5E50800C34591 /* ViewController.swift in Sources */,
 				5CA8A1DC2DD5E50800C34591 /* AppDelegate.swift in Sources */,
 				5CA8A1DE2DD5E50800C34591 /* SceneDelegate.swift in Sources */,
+				5CF95CFB2DD72C8A00FA4DD1 /* MoyaConfig.swift in Sources */,
+				5CF95CEF2DD7291E00FA4DD1 /* StoreModel.swift in Sources */,
+				5CF95CF52DD7299200FA4DD1 /* StoreService.swift in Sources */,
+				5CF95CF92DD72C5F00FA4DD1 /* StoreAppleApi.swift in Sources */,
+				5CF95CF12DD7294000FA4DD1 /* GenericResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +431,7 @@
 		};
 		5CA8A1ED2DD5E50900C34591 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E0BE4DE8CA26FD325D979BE /* Pods-shilai2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +465,7 @@
 		};
 		5CA8A1EE2DD5E50900C34591 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C2251ED149F989A725559F /* Pods-shilai2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
